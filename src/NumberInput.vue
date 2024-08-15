@@ -43,7 +43,7 @@ import { defineComponent, computed, ref } from 'vue'
 // Стандартная величина для шрифтов
 const PIXELS_FOR_CHARACTER = 8
 const MIN_WIDTH_IN_PX = 72
-const MAX_LENGTH_IN_CH = 20
+const MAX_LENGTH_IN_CH = 12
 const INPUT_PADDING = 4
 
 const formatDigits = (value: string | null) => {
